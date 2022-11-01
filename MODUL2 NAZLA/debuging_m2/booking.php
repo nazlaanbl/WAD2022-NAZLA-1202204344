@@ -41,7 +41,7 @@
                 ?><img src="car2.jpg" width="400" height="250" alt=""><?php }
                     else{?><img src="car3.jpg" width="400" height="250" alt=""><?php }?>					
 			</div>
-			<div class="col_">
+			<div class="col">
 				<form method="post" action="fungsibookingnow.php">  
 				  <div class="form-group">
 				    <label for="nama">Nama</label>
@@ -107,7 +107,7 @@
                   <!-- MEMASUKAN NOMOR HP!--> 
 				  <div class="form-group">
 				    <label for="phone">Phone number</label>
-				    <input type="date" class="form-control" name="phone" id="phone" required>
+				    <input type="number" class="form-control" name="phone" id="phone" required>
 				  </div>
 
                   <!-- MEMASUKAN SERVICE TAMBAHAN!-->

@@ -41,8 +41,8 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="col" style="width: 25rem;">
-					  <img class="card-img-top pt-4 pb-3" src="car2.jpg" width="200" height="250" alt="Card image cap">
+					<div class="card" style="width: 25rem;">
+					  <img class="card-img-top" src="car2.jpg" width="200" height="250" alt="Card image cap">
 					  <div class="card-body">
 					    <h5 class="card-title">BMW X5</h5>
 					    <p class="card-text">Rp1500000 / Day</p>						    

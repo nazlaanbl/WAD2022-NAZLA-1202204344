@@ -38,5 +38,5 @@
 	session_start();
 	session_destroy();
 
-	header('Location: http://localhost/MODUL2_NAZLA/booking.php');	
+	header('Location: http://localhost/MODUL2 NAZLA/booking.php');	
     ?>
