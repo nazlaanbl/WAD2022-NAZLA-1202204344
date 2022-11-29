@@ -56,10 +56,10 @@ include "koneksinazla.php";
                             <div class="d-flex justify-content-start">
                                 <div class="row">
                                     <div class="col">
-                                        <a href="detail.php?id_mobil=<?php echo $mycar['id_mobil'];?>" class="btn btn-primary rounded-4">Detail</a>
+                                        <a href="detail-nazla.php?id_mobil=<?php echo $mycar['id_mobil'];?>" class="btn btn-primary rounded-4">Detail</a>
                                     </div>
                                     <div class="col">
-                                        <a href="config/delete.php?id_mobil=<?php echo $mycar['id_mobil'];?>" class="btn btn-danger rounded-4">Delete</a>
+                                        <a href="delete-nazla.php?id_mobil=<?php echo $mycar['id_mobil'];?>" class="btn btn-danger rounded-4">Delete</a>
                                     </div>
                                 </div>
                             </div>

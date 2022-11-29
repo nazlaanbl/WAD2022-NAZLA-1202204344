@@ -30,7 +30,7 @@
 
             if ($query) {
                 echo "<script>alert('Data telah ditambahkan')</script>";
-                echo "<meta http-equiv='refresh' content='1 url=mycar.php'>";
+                echo "<meta http-equiv='refresh' content='1 url=mycar-nazla.php'>";
 
             } else {
                 echo "<script>alert('Data gagal ditambahkan')</script>";
@@ -68,11 +68,11 @@
                           die ("Query gagal dijalankan: ".mysqli_errno($koneksinazla).
                                " - ".mysqli_error($koneksinazla));
                       } else {
-                        echo "<script>alert('Data berhasil ditambah.');window.location='../mycar-nazla.php';</script>";
+                        echo "<script>alert('Data berhasil ditambah.');window.location='mycar-nazla.php';</script>";
                       }
     
                 } else {     
-                    echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='../add.php';</script>";
+                    echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='additem-nazla.php';</script>";
                 }
     } else {
        $query = $query = "INSERT INTO showroom(nama_mobil, pemilik_mobil, merk_mobil, tanggal, deskripsi, foto_mobil, status_pembayaran)

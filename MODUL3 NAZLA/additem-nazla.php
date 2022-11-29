@@ -72,7 +72,7 @@
                         </label>
                     </div>
                 </div>
-                <button type="submit" name="submit" class="btn btn-primary px-4">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary px-4" href="mycar-nazla.php">Submit</button>
             </form>
         </div>
 
