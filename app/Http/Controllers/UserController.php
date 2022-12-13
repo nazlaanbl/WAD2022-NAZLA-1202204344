@@ -13,7 +13,7 @@ class UserController extends Controller
         return view('register-nazla');
     }
 
-    public function halamanLogin()
+    public function loginpage()
     {
         return view('login-nazla');
     }
